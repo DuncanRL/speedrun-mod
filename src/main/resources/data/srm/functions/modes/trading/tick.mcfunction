@@ -1,0 +1,1 @@
+execute as @e[tag=114V] run function srm:modes/trading/114vpatch

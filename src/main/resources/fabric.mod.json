@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "duncansspeedrunmod",
+  "version": "${version}",
+  "name": "Duncan's Speedrun Mod",
+  "description": "A 1.16.1 mod for practicing 1.14.4/1.16.1 speedruns.",
+  "authors": [
+    "DuncanRuns"
+  ],
+  "contributors": [],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/duncansspeedrunmod/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "ca.duncansserver.speedrunmod.srm"
+    ],
+    "client": [],
+    "server": []
+  },
+  "mixins": [
+    "duncansspeedrunmod.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.8.0",
+    "fabric": "*"
+  }
+}
