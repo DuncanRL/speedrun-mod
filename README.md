@@ -1,5 +1,5 @@
 # Duncan's Speedrun Mod
-A 1.16.1 mod for practicing 1.14.4/1.16.1 speedruns.
+A 1.16.1 fabric mod for practicing 1.14.4/1.16.1 speedruns.
 
 Most practice modes are per world, meaning if you want to restart or change a practice, you must create a new world.
 
