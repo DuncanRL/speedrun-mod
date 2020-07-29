@@ -22,3 +22,7 @@ scoreboard players operation Reducation srm *= 100 srm
 scoreboard players operation average100th srm -= Reducation srm
 
 title @a actionbar [{"text":"Logs: ","color":"green"},{"score":{"name":"logstacks","objective":"srm"},"color":"green"},{"text":" stacks + ","color":"green"},{"score":{"name":"logs","objective":"srm"},"color":"green"},{"text":" TNT: ","color":"red"},{"score":{"name":"tntcount","objective":"srm"},"color":"red"},{"text":" Average: ","color":"gold"},{"score":{"name":"average","objective":"srm"},"color":"gold"},{"text":".","color":"gold"},{"score":{"name":"average100th","objective":"srm"},"color":"gold"}]
+
+replaceitem entity @a hotbar.8 command_block{display:{Name:'{"text":"Drop to Reset","color":"red","bold":true,"italic":false}'},d:1}
+
+execute as @e[type=item,nbt={Item:{tag:{d:1}}}] run function srm:modes/tnt/reset

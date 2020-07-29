@@ -8,7 +8,10 @@
     "DuncanRuns"
   ],
   "contributors": [],
-  "contact": {},
+  "contact": {
+    "issues":"https://github.com/DuncanRL/speedrun-mod/issues",
+    "homepage":"https://github.com/DuncanRL/speedrun-mod"
+  },
   "license": "MIT",
   "icon": "assets/duncansspeedrunmod/icon.png",
   "environment": "*",
