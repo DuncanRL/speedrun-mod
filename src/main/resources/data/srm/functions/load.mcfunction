@@ -14,5 +14,6 @@ scoreboard players set 50 timer 50
 scoreboard players set 60 timer 60
 
 execute unless score disable116mobs srm matches 0.. run scoreboard players set disable116mobs srm 0
+execute unless score 114pillars srm matches 0.. run scoreboard players set 114pillars srm 0
 
 #summon ender_dragon ~ ~ ~ {DragonPhase:3}

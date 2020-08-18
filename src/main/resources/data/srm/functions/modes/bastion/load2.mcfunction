@@ -9,6 +9,6 @@ execute as @p[tag=randomselected] at @s run setblock ~ ~ ~ fire
 
 tag @a remove randomselected
 clear @a
-execute as @a run function srm:modes/fortress/items
+execute as @a run function srm:modes/bastion/items
 
 scoreboard objectives add srmndeath deathCount

@@ -1,0 +1,12 @@
+execute positioned ~2 ~-1 ~ run function srm:114pillars/trimmer
+execute positioned ~-2 ~-1 ~ run function srm:114pillars/trimmer
+execute positioned ~ ~-1 ~2 run function srm:114pillars/trimmer
+execute positioned ~ ~-1 ~-2 run function srm:114pillars/trimmer
+execute positioned ~2 ~-1 ~1 run function srm:114pillars/trimmer
+execute positioned ~-2 ~-1 ~1 run function srm:114pillars/trimmer
+execute positioned ~1 ~-1 ~2 run function srm:114pillars/trimmer
+execute positioned ~1 ~-1 ~-2 run function srm:114pillars/trimmer
+execute positioned ~2 ~-1 ~-1 run function srm:114pillars/trimmer
+execute positioned ~-2 ~-1 ~-1 run function srm:114pillars/trimmer
+execute positioned ~-1 ~-1 ~2 run function srm:114pillars/trimmer
+execute positioned ~-1 ~-1 ~-2 run function srm:114pillars/trimmer

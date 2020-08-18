@@ -6,3 +6,5 @@ scoreboard players set time timer -10
 effect give @a resistance 1 100 true
 effect give @a instant_health 1 100 true
 effect give @a saturation 1 100 true
+
+execute if score 114pillars srm matches 1 run function srm:114pillars
