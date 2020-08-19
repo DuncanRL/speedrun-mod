@@ -7,4 +7,4 @@ execute if score Mode srm matches 6 run function srm:modes/eye/tick
 execute if score Mode srm matches 7 run function srm:modes/lava/tick
 execute if score Mode srm matches 8 run function srm:modes/tnt/tick
 execute if score Mode srm matches 9 run function srm:modes/bastion/tick
-execute if score Mode srm matches 10 run function srm:modes/onecycle/tick
+execute if score Mode srm matches 10 in minecraft:the_end run function srm:modes/onecycle/tick
