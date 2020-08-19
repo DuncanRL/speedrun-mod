@@ -14,6 +14,7 @@ execute in minecraft:the_end run spawnpoint @a 0 103 -1
 scoreboard objectives add deaths deathCount
 
 execute unless score crystal srm matches 0.. run scoreboard players set crystal srm 0
+scoreboard players set 100 srm 100
 
 
 
