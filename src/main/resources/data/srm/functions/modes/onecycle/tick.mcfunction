@@ -17,4 +17,7 @@ execute unless score DragonPhase srm matches 3 run function srm:modes/onecycle/f
 execute as @a if score @s deaths matches 1.. run function srm:modes/onecycle/reset
 
 
+execute if score slab srm matches 0 run fill -1 102 1 1 102 -1 minecraft:stone_bricks
+execute if score slab srm matches 1 run fill -1 102 1 1 102 -1 minecraft:stone_brick_slab
+setblock 0 102 0 minecraft:bedrock
 execute as @a run function srm:modes/onecycle/check
