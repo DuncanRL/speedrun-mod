@@ -10,8 +10,8 @@ setblock 0 105 0 air
 kill @e[type=ender_dragon]
 kill @e[type=end_crystal]
 
- execute unless score randangle srm matches 0 run summon area_effect_cloud 0 0 10 {Tags:["dragondir"]}
- execute unless score randangle srm matches 1 positioned 0 0 0 run function srm:modes/onecycle/randangle
+execute if score randangle srm matches 0 run summon area_effect_cloud 0 0 10 {Tags:["dragondir"]}
+execute if score randangle srm matches 1 positioned 0 0 0 run function srm:modes/onecycle/randangle
 
 execute positioned 0 0 0 facing entity @e[tag=dragondir,limit=1,sort=random] feet run function srm:modes/onecycle/dragon
 

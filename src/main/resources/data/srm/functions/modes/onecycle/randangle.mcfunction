@@ -14,5 +14,3 @@ execute rotated 270 0 run summon area_effect_cloud ^ ^ ^10 {Tags:["dragondir"]}
 execute rotated 292.5 0 run summon area_effect_cloud ^ ^ ^10 {Tags:["dragondir"]}
 execute rotated 315 0 run summon area_effect_cloud ^ ^ ^10 {Tags:["dragondir"]}
 execute rotated 337.5 0 run summon area_effect_cloud ^ ^ ^10 {Tags:["dragondir"]}
-
-execute as @a[tag=dragondir] run setblock ~ ~ ~ stone
