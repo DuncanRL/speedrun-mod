@@ -7,8 +7,8 @@ __Do not use this mod on your own worlds. Any damage done to a world with this m
 ## Modes
 ### Lava Practice
 A resettable (within world) and timed practice for making nether portals with a water bucket, stone pickaxe, 10 dirt, a stone shovel, and a flint and steel. 
-### Nether/Fortress Practice
-Instant teleportation to the nether with a stone sword/pickaxe/shovel/axe, along with a water bucket, flint and steel, boat, shield, 2 golden apples, and 32 bread. Fortress practice is the same thing, but it puts you next to a fortress.
+### Nether/Fortress/Bastion Practice
+Instant teleportation to the nether with a stone sword/pickaxe/shovel/axe, along with a water bucket, flint and steel, boat, shield, 2 golden apples, and 32 bread. Fortress/Bastion practice is the same thing, but it puts you next to a fortress/bastion. Bastion practice also gives you some extra things to prepare for piglin trading and gold block gathering.
 ### TNT Practice
 Choosing this option will teleport you to a mansion (because it's always in a roofed forest). You are given a stack of TNT, a stack of dirt, a flint and steel, and infinite health/hunger. This mode also tracks how many tnt you have used, and how many logs the tnt has blown up in total. It also calculates the average per tnt.
 ### 1.14.4 Trading Practice
@@ -21,5 +21,8 @@ Here's what they do differently:
 - The eye practice places you at x=0, z=0 and also gives you 7 blaze rods and 14 ender pearls..
 - The stronghold practice places you inside the closest stronghold and also gives you 12 eyes of ender.
 - The end practice places you inside the end.
+### Bed (One Cycling) Practice
+This mode gives you an inventory full of beds, and lets you fight the dragon with beds in an endless loop. There are options to tweak the practice too: crystal, slab, and random angle settings.
+The hotbar is filled with 9 different hotbars to practice scrolling to place different beds, while the inventory is filled with white beds to practice using pick block rather than scrolling. Also in the inventory are some command blocks that can be clicked or thrown to activate, they toggle whatever setting they say they have, and reset just resets.
 ## A Note for Mod Developers
 This mod is not a real mod; this is just a datapack packaged into a mod. Since I don't know anything about real modding, feel free to make this into a real mod if you like. If you have any simple improvements that I can add such as removing the need for the fabric API or correcting something that I've done wrong, I would appreciate it if you can let me know.
