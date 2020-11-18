@@ -1,6 +1,7 @@
 package ca.duncansserver.speedrunmod;
 
 import net.fabricmc.api.ModInitializer;
+import net.fabricmc.fabric.api.command.v1.CommandRegistrationCallback;
 
 import org.apache.logging.log4j.Level;
 import org.apache.logging.log4j.LogManager;
@@ -16,10 +17,18 @@ public class srm implements ModInitializer {
     @Override
     public void onInitialize() {
         log(Level.INFO, "Initializing");
+
+        CommandRegistrationCallback.EVENT.register((dispatcher, dedicated) -> {
+            CommandInvLoad.register(dispatcher);
+        });
+        CommandRegistrationCallback.EVENT.register((dispatcher, dedicated) -> {
+            CommandInvSave.register(dispatcher);
+        });
+
     }
 
-    public static void log(Level level, String message){
-        LOGGER.log(level, "["+MOD_NAME+"] " + message);
+    public static void log(Level level, String message) {
+        LOGGER.log(level, "[" + MOD_NAME + "] " + message);
     }
 
 }
