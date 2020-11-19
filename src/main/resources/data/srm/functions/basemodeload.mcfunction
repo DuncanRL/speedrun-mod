@@ -9,3 +9,4 @@ execute if score Mode srm matches 7 run function srm:modes/lava/load
 execute if score Mode srm matches 8 run function srm:modes/tnt/load
 execute if score Mode srm matches 9 run function srm:modes/bastion/load
 execute if score Mode srm matches 10 in minecraft:the_end run function srm:modes/onecycle/load
+execute if score Mode srm matches 11 run function srm:modes/presetcustomizer/load

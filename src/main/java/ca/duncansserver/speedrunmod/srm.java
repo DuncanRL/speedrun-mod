@@ -18,6 +18,8 @@ public class srm implements ModInitializer {
     public void onInitialize() {
         log(Level.INFO, "Initializing");
 
+        PresetHelper.checkDefaults();
+
         CommandRegistrationCallback.EVENT.register((dispatcher, dedicated) -> {
             CommandInvLoad.register(dispatcher);
         });
